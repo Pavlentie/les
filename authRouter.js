@@ -1,4 +1,4 @@
-const Router = reguire("express")
+const Router = require("express")
 
 const controller = require("./Controller/authController")
 
