@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 5000
 
 const app = express()
 
-app.use('\auth', authRouter)
+app.use('/auth', authRouter)
 app.use(express.json())
 const start = async () => {
     try {

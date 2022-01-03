@@ -26,6 +26,7 @@ class authController {
     async getUsers(req, res) {
 
         try {
+            res.json("rop pop ")
 
 
         } catch (e) {
