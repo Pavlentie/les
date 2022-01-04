@@ -1,7 +1,7 @@
-const {Schema,model} = require('mongoose')
+const { Schema, model, Mongoose } = require('mongoose')
 
-const User =new Schema({
-    value: {type: String, unique:true, default:"USER"},
+const Role = new Schema({
+    value: { type: String, unique: true, default: "USER" },
 })
 
-module.export = model('Role', Role)
+module.exports = model('Role', Role)
