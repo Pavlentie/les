@@ -14,8 +14,8 @@ app.use(express.json())
 const start = async() => {
     try {
         await mongoose.connect("mongodb+srv://pavlentie:fortuna156@cluster0.opy0p.mongodb.net/auth_roles?retryWrites=true&w=majority")
-        app.listen(PORT, () => console.log("server started on port "))
-        console.log(PORT)
+        app.listen(PORT, () => console.log(`server started on port ${PORT}` ))
+
 
     } catch (e) {
 
